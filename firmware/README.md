@@ -56,7 +56,6 @@ La librería `Adafruit_MAX31865` debe instalarse desde el administrador de bibli
 6. Cargar el programa en el microcontrolador.
 7. Abrir el Monitor Serie a **115200 baudios** para visualizar las mediciones.
 
-**Requisito previo:** el programa necesita que los parámetros de calibración `a` y `b` estén almacenados correctamente en la EEPROM. Si no existe una calibración válida, el sistema no habilita la detección térmica.
 
 ## 6. Funcionalidades del firmware
 
