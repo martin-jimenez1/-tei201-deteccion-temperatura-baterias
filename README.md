@@ -51,4 +51,26 @@ Frente a esta problemática, el proyecto propone un sistema experimental que per
 - Placa Arduino Nano.
 - Biblioteca `Adafruit_MAX31865`.
 
-### Instal
+### Instalación
+
+1. Descargar o clonar este repositorio.
+2. Abrir Arduino IDE.
+3. Instalar la biblioteca `Adafruit_MAX31865` desde el administrador de bibliotecas.
+4. Abrir el archivo `firmware/main.ino`.
+5. Conectar el Arduino Nano al computador.
+6. Seleccionar la placa y el puerto correspondiente en Arduino IDE.
+7. Cargar el programa en el microcontrolador.
+
+### Visualización de datos
+
+Actualmente, las mediciones y los estados del sistema se visualizan mediante el Monitor Serie de Arduino IDE.
+
+Para visualizar los datos:
+
+1. Abrir el Monitor Serie desde Arduino IDE.
+2. Configurar la velocidad de comunicación en **115200 baudios**.
+3. Observar las mediciones de temperatura, los estados del sistema y los posibles errores del sensor.
+
+## Alcance del proyecto
+
+El sistema corresponde a un prototipo experimental de monitoreo térmico. Sus rangos de referencia y criterios de alerta no constituyen límites de seguridad certificados ni garantizan la prevención de la fuga térmica.
